@@ -1,5 +1,5 @@
 import csv
-from itertools import count
+
 
 with open('src\\FDE_Week1_Day1\\data\\homework_invoices.csv', mode='r') as inputfile ,\
      open('src\\FDE_Week1_Day1\\data\\homework_invoices_output.csv', mode='w', newline='') as outputfile:
